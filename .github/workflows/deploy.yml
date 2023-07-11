@@ -72,4 +72,4 @@ jobs:
           bucket: an-gha-cuscom-action
           dist-folder: ./dist
       - name: Output information
-        run: echo "Live URL {{ steps.deploy.outputs.website-url }}"
+        run: echo "Live URL ${{ steps.deploy.outputs.website-url }}"
